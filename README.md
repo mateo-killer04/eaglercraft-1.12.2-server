@@ -5,7 +5,7 @@ Original Project: Lax1Dude
 <br>
 Original Server Fork: EcoliEater87
 <br>
-## Setup Guide - lamentablemente, no he conseguido hacerlo funcionar con forge :c
+## Setup Guide - HELPED BY GOOGLE ANTIGRAVITY AGENT
 <br>
 create 2 terminal tabs and paste
 <br>
