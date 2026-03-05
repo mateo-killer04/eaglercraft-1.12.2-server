@@ -1,0 +1,63 @@
+[23:06:35] [main/INFO]: Using standard Java JCE cipher.
+[23:06:35] [main/INFO]: Using standard Java compressor.
+[23:06:35] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579
+[23:06:35] [main/WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
+[23:06:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[23:06:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[23:06:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[23:06:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[23:06:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[23:06:35] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[23:06:35] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[23:06:35] [main/INFO]: Attempting to Jenkins download module cmd_alert v579
+[23:06:36] [main/INFO]: Download complete
+[23:06:36] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[23:06:36] [main/INFO]: Attempting to Jenkins download module cmd_find v579
+[23:06:36] [main/INFO]: Download complete
+[23:06:36] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[23:06:36] [main/INFO]: Attempting to Jenkins download module cmd_list v579
+[23:06:36] [main/INFO]: Download complete
+[23:06:36] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[23:06:36] [main/INFO]: Attempting to Jenkins download module cmd_send v579
+[23:06:36] [main/INFO]: Download complete
+[23:06:36] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[23:06:36] [main/INFO]: Attempting to Jenkins download module cmd_server v579
+[23:06:36] [main/INFO]: Download complete
+[23:06:36] [main/INFO]: Attempting to update plugin from null to ModuleVersion(build=579, git=de8345a)
+[23:06:36] [main/INFO]: Attempting to Jenkins download module reconnect_yaml v579
+[23:06:37] [main/INFO]: Download complete
+[23:06:37] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/WARN]: Error loading plugin EaglercraftXServer
+java.lang.UnsupportedClassVersionError: net/lax1dude/eaglercraft/backend/server/bungee/PlatformPluginBungee has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_351]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_351]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_351]
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_351]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_351]
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:395) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:301) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:290) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:68) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.21-R0.1-SNAPSHOT:de8345a:579]
+[23:06:37] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/WARN]: Forced host server pvp is not defined
+[23:06:37] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:de8345a:579 by WaterfallMC
+[23:06:37] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[23:06:58] [Shutdown Thread/INFO]: Closing listener [id: 0x3eb7c0af, L:/127.0.0.1:25577]
+[23:06:58] [Shutdown Thread/INFO]: Closing pending connections
+[23:06:58] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[23:06:58] [Shutdown Thread/INFO]: Disabling plugins
+[23:06:59] [Shutdown Thread/INFO]: Closing IO threads
+[23:07:01] [Shutdown Thread/INFO]: Thank you and goodbye

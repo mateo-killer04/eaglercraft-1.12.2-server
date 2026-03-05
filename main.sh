@@ -94,13 +94,21 @@ cd ..
 
 # run it!!
 cd bungee
-tmux new -d -s server "java -Xmx128M -jar bungee.jar; tmux kill-session -t server"
+# Find Java 17 for Bungee (required by EaglerXServer 1.12.2)
+JAVA17="java"
+if command -v java17 >/dev/null 2>&1; then
+  JAVA17="java17"
+elif [ -d "/usr/lib/jvm/java-17-openjdk-amd64" ]; then
+  JAVA17="/usr/lib/jvm/java-17-openjdk-amd64/bin/java"
+fi
+
+tmux new -d -s server "$JAVA17 -Xmx128M -jar bungee.jar; tmux kill-session -t server"
 cd ../server
 if [ ! -f "server.jar" ] && [ -d "../cuberite" ]; then
   cd ../cuberite
   tmux splitw -t server -v "BIND_ADDR=127.0.0.1 LD_PRELOAD=../bindmod.so ./Cuberite; tmux kill-session -t server"
 else
-  tmux splitw -t server -v "java -Djline.terminal=jline.UnsupportedTerminal -Xmx512M -jar server.jar nogui; tmux kill-session -t server"
+  tmux splitw -t server -v "java -Djline.terminal=jline.UnsupportedTerminal -Xmx256M -jar server.jar nogui; tmux kill-session -t server"
 fi
 cd ..
 while tmux has-session -t server
